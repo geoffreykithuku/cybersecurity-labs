@@ -792,25 +792,22 @@ for my target scan, no redirects were found
 
 # ==========================================
 
-
 # Services Table
 
 This table summarizes 10 key ports/services from my lab exploration.
 
-| Port | Protocol | State | Service | Version/Evidence | Command |
-|---:|:---:|:---:|:---|:---|:---|
-| 21 | tcp | open | ftp | vsftpd 2.3.4 | `nmap -sV 192.168.122.116` |
-| 22 | tcp | open | ssh | OpenSSH 4.7p1 Debian 8ubuntu1 | `nmap -sV 192.168.122.116` |
-| 23 | tcp | open | telnet | Linux telnetd | `nmap -sV 192.168.122.116` |
-| 25 | tcp | open | smtp | Postfix smtpd | `nmap -sV 192.168.122.116` |
-| 53 | tcp | open | domain | ISC BIND 9.4.2 | `nmap -sV 192.168.122.116` |
-| 80 | tcp | open | http | Apache httpd 2.2.8 (Ubuntu) DAV/2 | `nmap -sV 192.168.122.116` |
-| 111 | tcp | open | rpcbind | rpcbind 2 (RPC #100000) | `nmap -sV 192.168.122.116` |
-| 139 | tcp | open | netbios-ssn | Samba smbd 3.X - 4.X | `nmap -sV 192.168.122.116` |
-| 445 | tcp | open | netbios-ssn | Samba smbd 3.0.20-Debian | `sudo nmap -A 192.168.122.116` |
-| 3306 | tcp | open | mysql | MySQL 5.0.51a-3ubuntu5 | `sudo nmap -A 192.168.122.116` |
-
-
+| Port | Protocol | State | Service     | Version/Evidence                  | Command                        |
+| ---: | :------: | :---: | :---------- | :-------------------------------- | :----------------------------- |
+|   21 |   tcp    | open  | ftp         | vsftpd 2.3.4                      | `nmap -sV 192.168.122.116`     |
+|   22 |   tcp    | open  | ssh         | OpenSSH 4.7p1 Debian 8ubuntu1     | `nmap -sV 192.168.122.116`     |
+|   23 |   tcp    | open  | telnet      | Linux telnetd                     | `nmap -sV 192.168.122.116`     |
+|   25 |   tcp    | open  | smtp        | Postfix smtpd                     | `nmap -sV 192.168.122.116`     |
+|   53 |   tcp    | open  | domain      | ISC BIND 9.4.2                    | `nmap -sV 192.168.122.116`     |
+|   80 |   tcp    | open  | http        | Apache httpd 2.2.8 (Ubuntu) DAV/2 | `nmap -sV 192.168.122.116`     |
+|  111 |   tcp    | open  | rpcbind     | rpcbind 2 (RPC #100000)           | `nmap -sV 192.168.122.116`     |
+|  139 |   tcp    | open  | netbios-ssn | Samba smbd 3.X - 4.X              | `nmap -sV 192.168.122.116`     |
+|  445 |   tcp    | open  | netbios-ssn | Samba smbd 3.0.20-Debian          | `sudo nmap -A 192.168.122.116` |
+| 3306 |   tcp    | open  | mysql       | MySQL 5.0.51a-3ubuntu5            | `sudo nmap -A 192.168.122.116` |
 
 # ===========================================
 
