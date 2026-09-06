@@ -59,6 +59,10 @@ total 4
 
 I ran the the script and recorded the screenshots of the outputs. I noticed the invalid input error everytime I entered an option but fixed it.
 
+For easier assessment, I also recorded the script run in Loom:
+
+- [Loom recording](https://www.loom.com/share/4758b5adf4b146e1aabc9ac58540b791)
+
 ## Part 9 - Explanation Guide
 
     1. Purpose of the script. - To automate the process of reconnaissance on authorised targets using common enumeration utilities.
